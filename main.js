@@ -13,9 +13,9 @@ loadjson("data.json",function(text){
 let data=JSON.parse(text);
 console.log(data);
 basic(data.details);
+carr(data.career);
 edu(data.education);
 skill(data.skills);
-career1(data.career);
 })
 var main=document.querySelector(".main");
 var left=document.createElement("div");
@@ -78,9 +78,11 @@ function carr(career) {
 	var d=document.createElement("div");
 	d.classList.add("career");
 	right.appendChild(d);
-var e=document.createElement("h1");
+var e=document.createElement("h2");
 e.textContent="career objective";
 d.appendChild(e);
+var vj=document.createElement("hr");
+d.appendChild(vj);
 var para=document.createElement("p");
 para.textContent=career.co;
 e.appendChild(para);
