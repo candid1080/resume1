@@ -1,9 +1,44 @@
 {
 	"details":{
-          "name":"srikar",
-          "image":"download.jpg",
+          "name":"M.SRIKAR",
+          "image":"res.jpg",
           "phone":"9988776655",
           "email":"fredrickalex.freddy@gmail.com"
 
+	},
+	"education":[
+		{
+"course":"B.Tech(CSE)",
+"college":"MIC college",
+"per":"78%"
+		},
+	{
+"course":"Intermediate(MPC)",
+"college":"JRC",
+"per":"83%"
+		},
+		{
+"course":"SSC",
+"college":"Bright Angels",
+"per":"78%"
+		}
+	],
+	"skills":[
+		{
+		"title":"programming languages:",
+		"output":[
+			"c","c++","java","python"
+		]
+	},
+	{
+      "title":"operation systems:",
+      "output":[
+      	"windows","linux","MAC"
+      ]
 	}
+],
+	"career":
+		{
+			"co":"I am very exicited for working in a strategy maintained company like urs"
+		}
 }
